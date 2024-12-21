@@ -9,6 +9,9 @@
 
 [node name="CODE" type="Node" parent="."]
 script = ExtResource("1_utobb")
+old_data = [null]
+snake_data = [null]
+snake = [null]
 snake_scene = ExtResource("4_jb66a")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
