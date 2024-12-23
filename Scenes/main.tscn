@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://cj03yhq66t2nc"]
+[gd_scene load_steps=7 format=3 uid="uid://cj03yhq66t2nc"]
 
 [ext_resource type="Script" uid="uid://bb8qiu73dxko2" path="res://scripts/main.torch" id="1_utobb"]
 [ext_resource type="Texture2D" uid="uid://bj2ambwei5ogi" path="res://assets/bg.png" id="2_v2g72"]
 [ext_resource type="PackedScene" uid="uid://da8nu2wg4lm48" path="res://Scenes/hud.tscn" id="3_cyjfo"]
 [ext_resource type="PackedScene" uid="uid://bpw5lmugk7mvq" path="res://Scenes/snake_segment.tscn" id="4_jb66a"]
 [ext_resource type="Texture2D" uid="uid://dxyvfago0gd5f" path="res://assets/apple.png" id="5_6nfcw"]
+[ext_resource type="PackedScene" uid="uid://d1odbop374ujs" path="res://Scenes/game_over_menu.tscn" id="6_365fa"]
 
 [node name="Main" type="Node"]
 
@@ -28,4 +29,8 @@ wait_time = 0.1
 texture = ExtResource("5_6nfcw")
 offset = Vector2(25, 25)
 
+[node name="GameOverMenu" parent="." instance=ExtResource("6_365fa")]
+process_mode = 2
+
 [connection signal="timeout" from="MoveTimer" to="CODE" method="_on_move_timer_timeout"]
+[connection signal="restart" from="GameOverMenu" to="CODE" method="_on_game_over_menu_restart"]

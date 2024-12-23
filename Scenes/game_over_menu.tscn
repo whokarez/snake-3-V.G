@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1odbop374ujs"]
+
+[ext_resource type="Script" uid="uid://bt70irbkfjmnm" path="res://Scenes/game_over_menu.torch" id="1_ie3fm"]
+[ext_resource type="FontFile" uid="uid://r5ttqaxnuvgk" path="res://assets/MaldiniBold.ttf" id="1_j8cut"]
+
+[node name="GameOverMenu" type="CanvasLayer"]
+script = ExtResource("1_ie3fm")
+
+[node name="GameOverPanel" type="Panel" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -100.0
+offset_right = 200.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ResultLabel" type="Label" parent="GameOverPanel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -106.0
+offset_top = -52.0
+offset_right = 107.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("1_j8cut")
+theme_override_font_sizes/font_size = 50
+text = "GAME OVER"
+
+[node name="RestartButton" type="Button" parent="."]
+offset_left = 438.0
+offset_top = 545.0
+offset_right = 559.0
+offset_bottom = 607.0
+theme_override_font_sizes/font_size = 20
+text = "RESTART"
+
+[connection signal="pressed" from="RestartButton" to="." method="_on_restart_button_pressed"]

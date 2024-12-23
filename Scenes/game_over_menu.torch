@@ -1,0 +1,53 @@
+[orchestration type="OScript" load_steps=6 format=3 uid="uid://bt70irbkfjmnm"]
+
+[obj type="OScriptFunction" id="OScriptFunction_wuora"]
+guid = "44D9788E-CDA8-45FF-AA9E-ED137F20218B"
+method = {
+"name": &"_on_restart_button_pressed"
+}
+id = 0
+
+[obj type="OScriptGraph" id="OScriptGraph_rjp0y"]
+graph_name = &"EventGraph"
+offset = Vector2(-875.117, -412.979)
+zoom = 1.61051
+flags = 8
+nodes = Array[int]([0, 1])
+functions = Array[int]([0])
+
+[obj type="OScriptNodeEvent" id="OScriptNodeEvent_cdlo1"]
+function_id = "44D9788E-CDA8-45FF-AA9E-ED137F20218B"
+id = 0
+position = Vector2(-720, -20)
+pin_data = Array[Dictionary]([{
+"pin_name": &"ExecOut",
+"dir": 1,
+"flags": 4
+}])
+
+[obj type="OScriptNodeEmitSignal" id="OScriptNodeEmitSignal_wl6t1"]
+signal_name = "restart"
+id = 1
+position = Vector2(-40, -20)
+pin_data = Array[Dictionary]([{
+"pin_name": &"ExecIn",
+"flags": 4
+}, {
+"pin_name": &"ExecOut",
+"dir": 1,
+"flags": 4
+}])
+
+[obj type="OScriptSignal" id="OScriptSignal_b3p32"]
+method = {
+"name": &"restart"
+}
+signal_name = &"restart"
+
+[resource]
+base_type = &"CanvasLayer"
+functions = Array[OScriptFunction]([SubResource("OScriptFunction_wuora")])
+signals = Array[OScriptSignal]([SubResource("OScriptSignal_b3p32")])
+connections = Array[int]([0, 0, 1, 0])
+nodes = Array[OScriptNode]([SubResource("OScriptNodeEvent_cdlo1"), SubResource("OScriptNodeEmitSignal_wl6t1")])
+graphs = Array[OScriptGraph]([SubResource("OScriptGraph_rjp0y")])
