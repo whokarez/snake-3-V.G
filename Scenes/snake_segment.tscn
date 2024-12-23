@@ -2,10 +2,8 @@
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pppas"]
 bg_color = Color(0.905882, 0, 0.137255, 1)
-corner_radius_top_left = 9
-corner_radius_top_right = 9
-corner_radius_bottom_right = 9
-corner_radius_bottom_left = 9
+corner_radius_top_right = 20
+corner_radius_bottom_left = 20
 
 [node name="SnakeSegment" type="Panel" groups=["segment"]]
 offset_right = 50.0
