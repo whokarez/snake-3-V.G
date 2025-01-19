@@ -1,4 +1,4 @@
-[orchestration type="OScript" load_steps=304 format=3 uid="uid://bb8qiu73dxko2"]
+[orchestration type="OScript" load_steps=300 format=3 uid="uid://bb8qiu73dxko2"]
 
 [obj type="OScriptFunction" id="OScriptFunction_5hc4j"]
 guid = "481D67BE-A1BC-40F3-AB73-7061DD53A360"
@@ -141,7 +141,7 @@ knots = Array[Dictionary]([{
 
 [obj type="OScriptGraph" id="OScriptGraph_u6ddh"]
 graph_name = &"new_game"
-offset = Vector2(191.901, -409.808)
+offset = Vector2(191.901, -810.177)
 zoom = 0.683013
 flags = 22
 nodes = Array[int]([0, 1, 2, 6, 7, 8, 9, 10, 13, 14, 15, 16, 17, 18, 20, 290, 352, 353, 354, 355, 365, 366])
@@ -149,7 +149,7 @@ functions = Array[int]([0])
 
 [obj type="OScriptGraph" id="OScriptGraph_s15ni"]
 graph_name = &"generate_snake"
-offset = Vector2(-741.322, -237.81)
+offset = Vector2(-789.389, -574.31)
 zoom = 0.826446
 flags = 22
 nodes = Array[int]([19, 21, 22, 23, 24, 25, 27, 28, 29, 30])
@@ -157,10 +157,10 @@ functions = Array[int]([19])
 
 [obj type="OScriptGraph" id="OScriptGraph_k5t2g"]
 graph_name = &"add_segment"
-offset = Vector2(1653.75, -132.288)
-zoom = 1.1
+offset = Vector2(793.687, -283.379)
+zoom = 0.751315
 flags = 22
-nodes = Array[int]([26, 31, 32, 33, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 47, 55, 59, 222, 223, 224, 368, 369, 370, 371])
+nodes = Array[int]([26, 31, 32, 33, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 47, 55, 59, 222, 223, 224])
 functions = Array[int]([26])
 knots = Array[Dictionary]([{
 "id": 144115325531586586,
@@ -175,14 +175,14 @@ knots = Array[Dictionary]([{
 
 [obj type="OScriptGraph" id="OScriptGraph_e2n4x"]
 graph_name = &"move_snake"
-offset = Vector2(-2.60521, -466.491)
+offset = Vector2(-962.605, -675.563)
 flags = 22
 nodes = Array[int]([61, 63, 113, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 172, 173, 174, 175, 176, 177])
 functions = Array[int]([61])
 
 [obj type="OScriptGraph" id="OScriptGraph_4qlnr"]
 graph_name = &"start_game"
-offset = Vector2(-1024.87, 0)
+offset = Vector2(-1183.46, -336.5)
 zoom = 1.4641
 flags = 22
 nodes = Array[int]([78, 80, 81, 82])
@@ -190,7 +190,7 @@ functions = Array[int]([78])
 
 [obj type="OScriptGraph" id="OScriptGraph_m3j1i"]
 graph_name = &"chech_out_of_bounds"
-offset = Vector2(-13.4153, 0)
+offset = Vector2(-49.6394, -336.5)
 zoom = 0.683013
 flags = 22
 nodes = Array[int]([225, 231, 232, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 248])
@@ -198,15 +198,15 @@ functions = Array[int]([225])
 
 [obj type="OScriptGraph" id="OScriptGraph_d6a3k"]
 graph_name = &"check_self_eaten"
-offset = Vector2(-74.9369, -584.772)
-zoom = 0.564474
+offset = Vector2(-171.338, -336.5)
+zoom = 0.620921
 flags = 22
 nodes = Array[int]([226, 249, 250, 251, 252, 253, 254, 255, 258, 259, 260])
 functions = Array[int]([226])
 
 [obj type="OScriptGraph" id="OScriptGraph_33opw"]
 graph_name = &"check_food_eaten"
-offset = Vector2(502.62, -481.646)
+offset = Vector2(502.62, -973.889)
 zoom = 0.564474
 flags = 22
 nodes = Array[int]([227, 292, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 345, 346, 347, 348, 349, 350, 351])
@@ -214,7 +214,7 @@ functions = Array[int]([227])
 
 [obj type="OScriptGraph" id="OScriptGraph_7hkv7"]
 graph_name = &"end_game"
-offset = Vector2(-1400, -36.3636)
+offset = Vector2(-1470.98, -597.404)
 zoom = 0.909091
 flags = 22
 nodes = Array[int]([247, 356, 357, 358, 359, 360, 361, 362])
@@ -222,7 +222,7 @@ functions = Array[int]([247])
 
 [obj type="OScriptGraph" id="OScriptGraph_0s047"]
 graph_name = &"move_food"
-offset = Vector2(-623.667, -212.361)
+offset = Vector2(-699.866, -508.261)
 zoom = 0.513158
 flags = 22
 nodes = Array[int]([261, 263, 264, 265, 267, 268, 269, 270, 271, 272, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 344])
@@ -1181,6 +1181,7 @@ pin_data = Array[Dictionary]([{
 "dir": 1,
 "flags": 2050,
 "label": "snake_segment",
+"dv": null,
 "hint": 17,
 "hint_string": "PackedScene",
 "usage": 4102
@@ -1336,7 +1337,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "dir": 1,
 "flags": 2050,
-"target_class": "Timer"
+"target_class": "Timer",
+"dv": null
 }])
 
 [obj type="OScriptNodeCallMemberFunction" id="OScriptNodeCallMemberFunction_nlnoh"]
@@ -1367,7 +1369,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "flags": 2050,
 "label": "Timer",
-"target_class": "Timer"
+"target_class": "Timer",
+"dv": null
 }, {
 "pin_name": &"time_sec",
 "type": 3,
@@ -1611,7 +1614,8 @@ pin_data = Array[Dictionary]([{
 }, {
 "pin_name": &"b",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"result",
 "type": 1,
@@ -2122,7 +2126,8 @@ pin_data = Array[Dictionary]([{
 }, {
 "pin_name": &"b",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"result",
 "type": 1,
@@ -2410,7 +2415,8 @@ pin_data = Array[Dictionary]([{
 }, {
 "pin_name": &"b",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"result",
 "type": 1,
@@ -2746,16 +2752,19 @@ position = Vector2(2881.81, -419.927)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"b",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"result",
 "type": 5,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }])
 
 [obj type="OScriptNodeForLoop" id="OScriptNodeForLoop_wulb8"]
@@ -2828,12 +2837,14 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"target",
 "type": 28,
 "flags": 2058,
-"label": "Array"
+"label": "Array",
+"dv": []
 }, {
 "pin_name": &"return_value",
 "type": 2,
 "dir": 1,
-"flags": 1026
+"flags": 1026,
+"dv": 0
 }])
 
 [obj type="OScriptNodeOperator" id="OScriptNodeOperator_f74ya"]
@@ -2850,7 +2861,8 @@ position = Vector2(2205.79, 2.80188)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"b",
 "type": 2,
@@ -2860,7 +2872,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 2,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": 0
 }])
 
 [obj type="OScriptNodeBranch" id="OScriptNodeBranch_su6vr"]
@@ -2923,7 +2936,8 @@ position = Vector2(4096.55, 37.1093)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"b",
 "type": 2,
@@ -2932,7 +2946,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 1,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }])
 
 [obj type="OScriptNodeVariableGet" id="OScriptNodeVariableGet_dxlax"]
@@ -3056,7 +3071,8 @@ position = Vector2(4094.16, 444.535)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"b",
 "type": 2,
@@ -3066,7 +3082,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 2,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": 0
 }])
 
 [obj type="OScriptNodeVariableGet" id="OScriptNodeVariableGet_ovt6o"]
@@ -3162,7 +3179,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "flags": 2050,
 "label": "Control",
-"target_class": "Control"
+"target_class": "Control",
+"dv": null
 }, {
 "pin_name": &"position",
 "type": 5,
@@ -3261,16 +3279,19 @@ position = Vector2(4548.02, 1146.89)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"b",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"result",
 "type": 5,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }])
 
 [obj type="OScriptNodeOperator" id="OScriptNodeOperator_grkly"]
@@ -3287,16 +3308,19 @@ position = Vector2(4969.6, 1281.26)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"b",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"result",
 "type": 5,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }])
 
 [obj type="OScriptNodeComposeFrom" id="OScriptNodeComposeFrom_sh38v"]
@@ -3333,16 +3357,19 @@ position = Vector2(2466.21, -634.28)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 28,
-"flags": 2
+"flags": 2,
+"dv": []
 }, {
 "pin_name": &"b",
 "type": 28,
-"flags": 2
+"flags": 2,
+"dv": []
 }, {
 "pin_name": &"result",
 "type": 28,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": []
 }])
 
 [obj type="OScriptNodeVariableGet" id="OScriptNodeVariableGet_6th4g"]
@@ -3384,7 +3411,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"target",
 "type": 28,
 "flags": 2058,
-"label": "Array"
+"label": "Array",
+"dv": []
 }, {
 "pin_name": &"value",
 "flags": 2,
@@ -3401,6 +3429,7 @@ pin_data = Array[Dictionary]([{
 "dir": 1,
 "flags": 2050,
 "label": "snake_segment",
+"dv": null,
 "hint": 17,
 "hint_string": "PackedScene",
 "usage": 4102
@@ -3549,7 +3578,8 @@ position = Vector2(1258.97, 100)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 3,
-"flags": 2
+"flags": 2,
+"dv": 0.0
 }, {
 "pin_name": &"b",
 "type": 2,
@@ -3558,7 +3588,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 1,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }])
 
 [obj type="OScriptNodeOperator" id="OScriptNodeOperator_ctjyy"]
@@ -3575,16 +3606,19 @@ position = Vector2(1716.41, 380.679)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }, {
 "pin_name": &"b",
 "type": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }, {
 "pin_name": &"result",
 "type": 1,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }])
 
 [obj type="OScriptNodeOperator" id="OScriptNodeOperator_mbjgk"]
@@ -3601,16 +3635,19 @@ position = Vector2(2220.49, 512.042)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }, {
 "pin_name": &"b",
 "type": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }, {
 "pin_name": &"result",
 "type": 1,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }])
 
 [obj type="OScriptNodeOperator" id="OScriptNodeOperator_qku54"]
@@ -3627,16 +3664,19 @@ position = Vector2(1757.45, 677.649)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }, {
 "pin_name": &"b",
 "type": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }, {
 "pin_name": &"result",
 "type": 1,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }])
 
 [obj type="OScriptNodeBranch" id="OScriptNodeBranch_seawa"]
@@ -3675,16 +3715,19 @@ position = Vector2(1307.82, 428.949)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 3,
-"flags": 2
+"flags": 2,
+"dv": 0.0
 }, {
 "pin_name": &"b",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"result",
 "type": 1,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }])
 
 [obj type="OScriptNodeVariableGet" id="OScriptNodeVariableGet_xlps0"]
@@ -3715,7 +3758,8 @@ position = Vector2(1292.12, 672.552)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 3,
-"flags": 2
+"flags": 2,
+"dv": 0.0
 }, {
 "pin_name": &"b",
 "type": 2,
@@ -3724,7 +3768,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 1,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }])
 
 [obj type="OScriptNodeOperator" id="OScriptNodeOperator_gqrkq"]
@@ -3741,7 +3786,8 @@ position = Vector2(832.153, 476.502)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"b",
 "type": 2,
@@ -3751,7 +3797,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 2,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": 0
 }])
 
 [obj type="OScriptNodeOperator" id="OScriptNodeOperator_lcau2"]
@@ -3768,7 +3815,8 @@ position = Vector2(1230.66, 868.676)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 3,
-"flags": 2
+"flags": 2,
+"dv": 0.0
 }, {
 "pin_name": &"b",
 "type": 2,
@@ -3777,7 +3825,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 1,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }])
 
 [obj type="OScriptNodeOperator" id="OScriptNodeOperator_ku1m0"]
@@ -3897,7 +3946,7 @@ pin_data = Array[Dictionary]([{
 [obj type="OScriptNodeVariableGet" id="OScriptNodeVariableGet_qyoja"]
 variable_name = &"snake_data"
 id = 251
-position = Vector2(140, 680)
+position = Vector2(280, 340)
 pin_data = Array[Dictionary]([{
 "pin_name": &"value",
 "type": 28,
@@ -3933,12 +3982,14 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"target",
 "type": 28,
 "flags": 2058,
-"label": "Array"
+"label": "Array",
+"dv": []
 }, {
 "pin_name": &"return_value",
 "type": 2,
 "dir": 1,
-"flags": 1026
+"flags": 1026,
+"dv": 0
 }])
 
 [obj type="OScriptNodeOperator" id="OScriptNodeOperator_6eh3a"]
@@ -3955,7 +4006,8 @@ position = Vector2(1140, 240)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"b",
 "type": 2,
@@ -3965,12 +4017,13 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 2,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": 0
 }])
 
 [obj type="OScriptNodeBranch" id="OScriptNodeBranch_xup7r"]
 id = 254
-position = Vector2(3060, 0)
+position = Vector2(2220, 0)
 pin_data = Array[Dictionary]([{
 "pin_name": &"ExecIn",
 "flags": 516,
@@ -3992,7 +4045,7 @@ pin_data = Array[Dictionary]([{
 
 [obj type="OScriptNodeArrayGet" id="OScriptNodeArrayGet_uds27"]
 id = 255
-position = Vector2(2140, 220)
+position = Vector2(2140, 540)
 pin_data = Array[Dictionary]([{
 "pin_name": &"array",
 "type": 28,
@@ -4001,8 +4054,7 @@ pin_data = Array[Dictionary]([{
 }, {
 "pin_name": &"index",
 "type": 2,
-"flags": 2,
-"dv": 0
+"flags": 2
 }, {
 "pin_name": &"element",
 "dir": 1,
@@ -4019,15 +4071,17 @@ right_type = 5
 right_type_name = &"Vector2"
 return_type = 1
 id = 258
-position = Vector2(2700, 100)
+position = Vector2(2860, 540)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"b",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"result",
 "type": 1,
@@ -4037,7 +4091,7 @@ pin_data = Array[Dictionary]([{
 
 [obj type="OScriptNodeArrayGet" id="OScriptNodeArrayGet_fvvpd"]
 id = 259
-position = Vector2(2180, 700)
+position = Vector2(2140, 700)
 pin_data = Array[Dictionary]([{
 "pin_name": &"array",
 "type": 28,
@@ -4060,7 +4114,7 @@ guid = "22EFE0AA-97F7-49A5-BF5B-B911EF245BF9"
 function_name = &"end_game"
 flags = 8
 id = 260
-position = Vector2(3460, 0)
+position = Vector2(2840, 0)
 pin_data = Array[Dictionary]([{
 "pin_name": &"ExecIn",
 "flags": 4
@@ -4205,16 +4259,19 @@ position = Vector2(1727.99, -160.017)
 pin_data = Array[Dictionary]([{
 "pin_name": &"from",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"to",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"return_value",
 "type": 2,
 "dir": 1,
-"flags": 1026
+"flags": 1026,
+"dv": 0
 }])
 
 [obj type="OScriptNodeVariableGet" id="OScriptNodeVariableGet_v5bau"]
@@ -4245,7 +4302,8 @@ position = Vector2(1320.01, -108.003)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"b",
 "type": 2,
@@ -4255,7 +4313,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 2,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": 0
 }])
 
 [obj type="OScriptNodeCallBuiltinFunction" id="OScriptNodeCallBuiltinFunction_7gtm7"]
@@ -4278,16 +4337,19 @@ position = Vector2(1727.99, 2.99958)
 pin_data = Array[Dictionary]([{
 "pin_name": &"from",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"to",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"return_value",
 "type": 2,
 "dir": 1,
-"flags": 1026
+"flags": 1026,
+"dv": 0
 }])
 
 [obj type="OScriptNodeBranch" id="OScriptNodeBranch_lmg70"]
@@ -4384,16 +4446,19 @@ position = Vector2(1712.95, 383.854)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"b",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"result",
 "type": 1,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }])
 
 [obj type="OScriptNodeVariableSet" id="OScriptNodeVariableSet_yjv05"]
@@ -4452,7 +4517,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "dir": 1,
 "flags": 2050,
-"target_class": "Sprite2D"
+"target_class": "Sprite2D",
+"dv": null
 }])
 
 [obj type="OScriptNodeCallMemberFunction" id="OScriptNodeCallMemberFunction_kck5p"]
@@ -4482,7 +4548,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "flags": 2050,
 "label": "Node2D",
-"target_class": "Node2D"
+"target_class": "Node2D",
+"dv": null
 }, {
 "pin_name": &"position",
 "type": 5,
@@ -4552,16 +4619,19 @@ position = Vector2(123.734, 502.581)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"b",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"result",
 "type": 5,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }])
 
 [obj type="OScriptNodeOperator" id="OScriptNodeOperator_pn4o6"]
@@ -4578,16 +4648,19 @@ position = Vector2(748.155, 854.643)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"b",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }, {
 "pin_name": &"result",
 "type": 5,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }])
 
 [obj type="OScriptNodeVariableGet" id="OScriptNodeVariableGet_2utjl"]
@@ -4745,7 +4818,8 @@ position = Vector2(2517.03, -747.084)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"b",
 "type": 2,
@@ -4755,7 +4829,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 2,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": 0
 }])
 
 [obj type="OScriptNodeSceneNode" id="OScriptNodeSceneNode_8im3q"]
@@ -4768,7 +4843,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "dir": 1,
 "flags": 2050,
-"target_class": "CanvasLayer"
+"target_class": "CanvasLayer",
+"dv": null
 }])
 
 [obj type="OScriptNodeCallMemberFunction" id="OScriptNodeCallMemberFunction_fvx1p"]
@@ -4810,7 +4886,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "flags": 2050,
 "label": "Node",
-"target_class": "Node"
+"target_class": "Node",
+"dv": null
 }, {
 "pin_name": &"pattern",
 "type": 4,
@@ -4834,7 +4911,8 @@ pin_data = Array[Dictionary]([{
 "dir": 1,
 "flags": 2,
 "label": "Node",
-"target_class": "Node"
+"target_class": "Node",
+"dv": null
 }])
 
 [obj type="OScriptNodeCallMemberFunction" id="OScriptNodeCallMemberFunction_k82uh"]
@@ -4883,7 +4961,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"instance",
 "type": 24,
 "flags": 2,
-"target_class": "Object"
+"target_class": "Object",
+"dv": null
 }, {
 "pin_name": &"yes",
 "dir": 1,
@@ -4966,7 +5045,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 4,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": ""
 }])
 
 [obj type="OScriptNodeComposeFrom" id="OScriptNodeComposeFrom_bdgnk"]
@@ -5001,7 +5081,8 @@ pin_data = Array[Dictionary]([{
 }, {
 "pin_name": &"pos",
 "type": 5,
-"flags": 2
+"flags": 2,
+"dv": Vector2(0, 0)
 }])
 
 [obj type="OScriptNodeVariableGet" id="OScriptNodeVariableGet_0kl5i"]
@@ -5144,7 +5225,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 1,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": false
 }])
 
 [obj type="OScriptNodeVariableGet" id="OScriptNodeVariableGet_bi6qb"]
@@ -5186,12 +5268,14 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"target",
 "type": 28,
 "flags": 2058,
-"label": "Array"
+"label": "Array",
+"dv": []
 }, {
 "pin_name": &"return_value",
 "type": 2,
 "dir": 1,
-"flags": 1026
+"flags": 1026,
+"dv": 0
 }])
 
 [obj type="OScriptNodeOperator" id="OScriptNodeOperator_beu4e"]
@@ -5208,7 +5292,8 @@ position = Vector2(2905.4, 600.474)
 pin_data = Array[Dictionary]([{
 "pin_name": &"a",
 "type": 2,
-"flags": 2
+"flags": 2,
+"dv": 0
 }, {
 "pin_name": &"b",
 "type": 2,
@@ -5218,7 +5303,8 @@ pin_data = Array[Dictionary]([{
 "pin_name": &"result",
 "type": 2,
 "dir": 1,
-"flags": 2
+"flags": 2,
+"dv": 0
 }])
 
 [obj type="OScriptNodeCallMemberFunction" id="OScriptNodeCallMemberFunction_culcl"]
@@ -5249,7 +5335,8 @@ pin_data = Array[Dictionary]([{
 "dir": 1,
 "flags": 2,
 "label": "SceneTree",
-"target_class": "SceneTree"
+"target_class": "SceneTree",
+"dv": null
 }])
 
 [obj type="OScriptNodePropertySet" id="OScriptNodePropertySet_r0sof"]
@@ -5274,7 +5361,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "flags": 2050,
 "label": "SceneTree",
-"target_class": "SceneTree"
+"target_class": "SceneTree",
+"dv": null
 }, {
 "pin_name": &"paused",
 "type": 1,
@@ -5295,7 +5383,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "dir": 1,
 "flags": 2050,
-"target_class": "CanvasLayer"
+"target_class": "CanvasLayer",
+"dv": null
 }])
 
 [obj type="OScriptNodeCallMemberFunction" id="OScriptNodeCallMemberFunction_3sbou"]
@@ -5321,7 +5410,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "flags": 2050,
 "label": "CanvasLayer",
-"target_class": "CanvasLayer"
+"target_class": "CanvasLayer",
+"dv": null
 }])
 
 [obj type="OScriptNodeSceneNode" id="OScriptNodeSceneNode_68xfq"]
@@ -5334,7 +5424,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "dir": 1,
 "flags": 2050,
-"target_class": "CanvasLayer"
+"target_class": "CanvasLayer",
+"dv": null
 }])
 
 [obj type="OScriptNodeCallMemberFunction" id="OScriptNodeCallMemberFunction_mr5f5"]
@@ -5360,7 +5451,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "flags": 2050,
 "label": "CanvasLayer",
-"target_class": "CanvasLayer"
+"target_class": "CanvasLayer",
+"dv": null
 }])
 
 [obj type="OScriptNodeSceneNode" id="OScriptNodeSceneNode_38hy7"]
@@ -5373,7 +5465,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "dir": 1,
 "flags": 2050,
-"target_class": "Timer"
+"target_class": "Timer",
+"dv": null
 }])
 
 [obj type="OScriptNodeCallMemberFunction" id="OScriptNodeCallMemberFunction_n45mp"]
@@ -5399,7 +5492,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "flags": 2050,
 "label": "Timer",
-"target_class": "Timer"
+"target_class": "Timer",
+"dv": null
 }])
 
 [obj type="OScriptNodeVariableSet" id="OScriptNodeVariableSet_352a7"]
@@ -5454,7 +5548,8 @@ pin_data = Array[Dictionary]([{
 "dir": 1,
 "flags": 2,
 "label": "SceneTree",
-"target_class": "SceneTree"
+"target_class": "SceneTree",
+"dv": null
 }])
 
 [obj type="OScriptNodePropertySet" id="OScriptNodePropertySet_rs1eu"]
@@ -5479,7 +5574,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "flags": 2050,
 "label": "SceneTree",
-"target_class": "SceneTree"
+"target_class": "SceneTree",
+"dv": null
 }, {
 "pin_name": &"paused",
 "type": 1,
@@ -5544,7 +5640,8 @@ pin_data = Array[Dictionary]([{
 "dir": 1,
 "flags": 2,
 "label": "SceneTree",
-"target_class": "SceneTree"
+"target_class": "SceneTree",
+"dv": null
 }])
 
 [obj type="OScriptNodeCallMemberFunction" id="OScriptNodeCallMemberFunction_uqjmj"]
@@ -5579,7 +5676,8 @@ pin_data = Array[Dictionary]([{
 "type": 24,
 "flags": 2050,
 "label": "SceneTree",
-"target_class": "SceneTree"
+"target_class": "SceneTree",
+"dv": null
 }, {
 "pin_name": &"group",
 "type": 21,
@@ -5590,142 +5688,6 @@ pin_data = Array[Dictionary]([{
 "type": 21,
 "flags": 2,
 "dv": "queue_free"
-}])
-
-[obj type="OScriptNodeCallMemberFunction" id="OScriptNodeCallMemberFunction_mttkm"]
-function_name = &"get_theme_stylebox"
-target_class_name = "Control"
-target_type = 24
-flags = 522
-method = {
-"name": &"get_theme_stylebox",
-"return": {
-"type": 24,
-"class_name": &"StyleBox",
-"hint": 17,
-"hint_string": "StyleBox"
-},
-"flags": 5,
-"default_args": [&""],
-"args": [{
-"name": &"name",
-"type": 21
-}, {
-"name": &"theme_type",
-"type": 21
-}]
-}
-chain = false
-id = 368
-position = Vector2(1960, 280)
-pin_data = Array[Dictionary]([{
-"pin_name": &"ExecIn",
-"flags": 4
-}, {
-"pin_name": &"ExecOut",
-"dir": 1,
-"flags": 4
-}, {
-"pin_name": &"target",
-"type": 24,
-"flags": 2050,
-"label": "Control",
-"target_class": "Control",
-"dv": null
-}, {
-"pin_name": &"name",
-"type": 21,
-"flags": 2,
-"dv": "panel"
-}, {
-"pin_name": &"theme_type",
-"type": 21,
-"flags": 2,
-"dv": "Panel"
-}, {
-"pin_name": &"return_value",
-"type": 24,
-"dir": 1,
-"flags": 2,
-"label": "StyleBox",
-"target_class": "StyleBox",
-"dv": null,
-"hint": 17,
-"hint_string": "StyleBox"
-}])
-
-[obj type="OScriptNodeCallMemberFunction" id="OScriptNodeCallMemberFunction_kp02w"]
-function_name = &"set"
-target_class_name = "Object"
-target_type = 24
-flags = 520
-method = {
-"name": &"set",
-"args": [{
-"name": &"property",
-"type": 21
-}, {
-"name": &"value",
-"usage": 131078
-}]
-}
-chain = false
-id = 369
-position = Vector2(2600, 440)
-pin_data = Array[Dictionary]([{
-"pin_name": &"ExecIn",
-"flags": 4
-}, {
-"pin_name": &"ExecOut",
-"dir": 1,
-"flags": 4
-}, {
-"pin_name": &"target",
-"type": 24,
-"flags": 2050,
-"label": "Object",
-"target_class": "Object",
-"dv": null
-}, {
-"pin_name": &"property",
-"type": 21,
-"flags": 2,
-"dv": "bg_color"
-}, {
-"pin_name": &"value",
-"flags": 2,
-"usage": 131078
-}])
-
-[obj type="OScriptNodeComposeFrom" id="OScriptNodeComposeFrom_jgtqm"]
-id = 370
-position = Vector2(2120, 680)
-pin_data = Array[Dictionary]([{
-"pin_name": &"from",
-"type": 20,
-"flags": 2
-}, {
-"pin_name": &"value",
-"type": 20,
-"dir": 1,
-"flags": 2,
-"dv": Color(0, 0, 0, 1)
-}])
-
-[obj type="OScriptNodeVariableGet" id="OScriptNodeVariableGet_foaof"]
-variable_name = &"snake_segment"
-id = 371
-position = Vector2(1420, 100)
-pin_data = Array[Dictionary]([{
-"pin_name": &"value",
-"type": 24,
-"dir": 1,
-"flags": 2050,
-"label": "snake_segment",
-"dv": null,
-"hint": 17,
-"hint_string": "PackedScene",
-"usage": 4102
 }])
 
 [obj type="OScriptVariable" id="OScriptVariable_nqbqn"]
@@ -5882,6 +5844,6 @@ default_value = Vector2(0, 0)
 base_type = &"Node"
 variables = Array[OScriptVariable]([SubResource("OScriptVariable_nqbqn"), SubResource("OScriptVariable_ifnfy"), SubResource("OScriptVariable_m02u5"), SubResource("OScriptVariable_4kuxi"), SubResource("OScriptVariable_rnw15"), SubResource("OScriptVariable_hnpwh"), SubResource("OScriptVariable_lakw5"), SubResource("OScriptVariable_sufcb"), SubResource("OScriptVariable_avune"), SubResource("OScriptVariable_bh2ut"), SubResource("OScriptVariable_6fo67"), SubResource("OScriptVariable_uq4hk"), SubResource("OScriptVariable_3paka"), SubResource("OScriptVariable_tcde3"), SubResource("OScriptVariable_qg5ss"), SubResource("OScriptVariable_snaac"), SubResource("OScriptVariable_xftxu"), SubResource("OScriptVariable_chrij"), SubResource("OScriptVariable_edlf7")])
 functions = Array[OScriptFunction]([SubResource("OScriptFunction_5hc4j"), SubResource("OScriptFunction_jxsng"), SubResource("OScriptFunction_t4vld"), SubResource("OScriptFunction_67igq"), SubResource("OScriptFunction_osepy"), SubResource("OScriptFunction_p5rxj"), SubResource("OScriptFunction_l4cc2"), SubResource("OScriptFunction_ycmvt"), SubResource("OScriptFunction_0a5je"), SubResource("OScriptFunction_yb2qp"), SubResource("OScriptFunction_bj300"), SubResource("OScriptFunction_r2yhc"), SubResource("OScriptFunction_ctqgb"), SubResource("OScriptFunction_2otpy")])
-connections = Array[int]([2, 1, 1, 0, 0, 0, 2, 0, 15, 0, 6, 0, 7, 0, 8, 0, 10, 0, 9, 0, 11, 0, 12, 0, 1, 0, 14, 0, 14, 0, 15, 0, 6, 0, 16, 0, 2, 2, 18, 0, 18, 0, 20, 0, 22, 0, 21, 0, 19, 0, 22, 0, 21, 0, 23, 0, 23, 0, 24, 0, 22, 1, 25, 0, 25, 0, 27, 0, 28, 0, 29, 0, 38, 0, 32, 0, 37, 0, 33, 0, 32, 0, 36, 0, 36, 0, 37, 0, 26, 0, 38, 0, 38, 1, 41, 0, 43, 0, 42, 0, 42, 0, 44, 0, 41, 0, 59, 0, 61, 0, 63, 0, 82, 0, 81, 0, 78, 0, 82, 0, 127, 0, 113, 0, 115, 0, 116, 0, 113, 0, 117, 0, 117, 0, 118, 0, 118, 0, 119, 0, 119, 0, 120, 0, 121, 0, 123, 0, 125, 0, 124, 0, 63, 2, 127, 0, 136, 0, 128, 0, 130, 0, 131, 0, 128, 0, 132, 0, 132, 0, 133, 0, 133, 0, 134, 0, 134, 0, 135, 0, 63, 0, 136, 0, 139, 0, 137, 0, 140, 0, 141, 0, 144, 0, 145, 0, 156, 0, 146, 0, 146, 0, 147, 0, 147, 0, 148, 0, 148, 0, 149, 0, 151, 0, 150, 0, 152, 0, 153, 0, 63, 1, 155, 0, 155, 0, 156, 0, 172, 0, 158, 0, 160, 0, 161, 0, 158, 0, 162, 0, 162, 0, 163, 0, 163, 0, 164, 0, 164, 0, 165, 0, 166, 0, 168, 0, 170, 0, 169, 0, 63, 3, 172, 0, 60, 0, 179, 0, 181, 0, 180, 0, 178, 0, 181, 0, 180, 0, 185, 0, 185, 0, 187, 0, 188, 0, 189, 0, 189, 0, 191, 0, 194, 0, 192, 0, 181, 1, 194, 0, 194, 1, 195, 0, 207, 0, 196, 0, 192, 0, 197, 0, 199, 0, 198, 0, 196, 0, 201, 0, 203, 0, 204, 0, 206, 0, 205, 0, 197, 0, 207, 0, 209, 0, 208, 0, 207, 1, 211, 0, 213, 0, 214, 0, 214, 0, 217, 0, 217, 0, 218, 0, 182, 0, 220, 0, 369, 0, 223, 0, 181, 2, 228, 0, 228, 0, 229, 0, 229, 0, 230, 0, 231, 0, 232, 0, 232, 0, 234, 0, 234, 0, 235, 0, 235, 0, 236, 0, 236, 0, 237, 0, 242, 0, 238, 0, 225, 0, 239, 0, 234, 0, 240, 0, 234, 1, 242, 0, 241, 0, 243, 0, 234, 1, 244, 0, 246, 0, 245, 0, 239, 0, 248, 0, 226, 0, 249, 0, 252, 0, 250, 0, 249, 0, 252, 0, 252, 1, 253, 0, 250, 0, 254, 0, 251, 0, 255, 0, 255, 0, 258, 0, 251, 0, 259, 0, 254, 0, 260, 0, 265, 0, 264, 0, 344, 0, 265, 0, 265, 1, 267, 0, 269, 0, 268, 0, 270, 0, 271, 0, 275, 0, 274, 0, 265, 2, 275, 0, 277, 0, 278, 0, 274, 0, 279, 0, 261, 0, 280, 0, 280, 1, 282, 0, 288, 0, 286, 0, 286, 0, 287, 0, 282, 0, 289, 0, 20, 0, 290, 0, 227, 0, 292, 0, 292, 0, 297, 0, 297, 0, 298, 0, 299, 0, 300, 0, 297, 1, 302, 0, 304, 0, 303, 0, 302, 0, 304, 0, 305, 0, 306, 0, 308, 0, 307, 0, 350, 0, 309, 0, 310, 0, 311, 0, 309, 0, 312, 0, 280, 0, 344, 0, 347, 0, 346, 0, 346, 0, 348, 0, 297, 2, 350, 0, 350, 1, 351, 0, 366, 0, 353, 0, 353, 0, 355, 0, 247, 0, 357, 0, 357, 0, 359, 0, 359, 0, 360, 0, 360, 0, 362, 0, 363, 0, 364, 0, 2, 0, 366, 0, 59, 0, 368, 0, 368, 0, 369, 0, 15, 2, 6, 1, 8, 0, 9, 1, 13, 0, 14, 1, 14, 1, 15, 1, 17, 0, 16, 1, 29, 0, 27, 1, 30, 0, 29, 1, 25, 1, 30, 1, 31, 0, 32, 1, 37, 1, 33, 1, 35, 0, 36, 1, 36, 2, 37, 1, 39, 0, 41, 1, 26, 1, 42, 1, 45, 0, 44, 1, 43, 0, 45, 1, 55, 0, 59, 1, 80, 0, 81, 1, 123, 0, 113, 1, 175, 0, 117, 1, 116, 0, 119, 1, 124, 0, 123, 1, 174, 0, 124, 1, 122, 0, 127, 1, 137, 0, 128, 1, 129, 0, 132, 1, 131, 0, 134, 1, 138, 0, 136, 1, 141, 0, 137, 1, 142, 0, 141, 1, 154, 0, 146, 1, 145, 0, 148, 1, 153, 0, 150, 1, 173, 0, 153, 1, 157, 0, 155, 1, 150, 0, 156, 1, 168, 0, 158, 1, 177, 0, 162, 1, 161, 0, 164, 1, 169, 0, 168, 1, 176, 0, 169, 1, 167, 0, 172, 1, 220, 0, 185, 1, 186, 0, 187, 1, 190, 0, 191, 1, 193, 0, 194, 1, 198, 0, 196, 1, 192, 1, 197, 1, 200, 0, 201, 1, 205, 0, 204, 1, 212, 0, 208, 1, 208, 0, 211, 1, 215, 0, 214, 1, 216, 0, 217, 1, 219, 0, 218, 1, 216, 0, 219, 1, 183, 0, 220, 1, 222, 0, 223, 1, 240, 0, 236, 1, 238, 0, 237, 1, 244, 0, 238, 1, 237, 0, 239, 1, 243, 0, 240, 1, 245, 0, 244, 1, 251, 0, 252, 1, 258, 0, 254, 1, 259, 0, 258, 1, 250, 1, 259, 1, 268, 0, 267, 1, 272, 0, 268, 1, 271, 0, 269, 1, 271, 0, 272, 1, 278, 0, 274, 1, 276, 0, 275, 1, 275, 1, 278, 1, 281, 0, 282, 1, 284, 0, 283, 1, 285, 0, 286, 1, 283, 0, 287, 1, 348, 0, 292, 1, 300, 0, 298, 1, 301, 0, 302, 1, 304, 2, 303, 1, 302, 1, 304, 1, 306, 0, 307, 1, 311, 0, 309, 1, 351, 0, 311, 1, 263, 0, 344, 1, 345, 0, 348, 1, 349, 0, 350, 1, 352, 0, 353, 1, 354, 0, 355, 1, 356, 0, 357, 1, 358, 0, 359, 1, 361, 0, 362, 1, 365, 0, 366, 1, 371, 0, 368, 1, 368, 1, 369, 1, 9, 0, 6, 2, 26, 1, 32, 2, 44, 0, 41, 2, 195, 0, 192, 2, 202, 0, 201, 2, 218, 0, 211, 2, 224, 0, 223, 2, 253, 0, 250, 2, 287, 0, 282, 2, 307, 0, 303, 2, 47, 0, 59, 3, 191, 0, 187, 3, 204, 0, 201, 3, 370, 0, 369, 3])
-nodes = Array[OScriptNode]([SubResource("OScriptNodeFunctionEntry_qahqt"), SubResource("OScriptNodeVariableSet_yuscy"), SubResource("OScriptNodeSequence_w2st0"), SubResource("OScriptNodeCallMemberFunction_ed31e"), SubResource("OScriptNodeVariableGet_g7vxq"), SubResource("OScriptNodeCallBuiltinFunction_xldvb"), SubResource("OScriptNodeOperator_8fh5y"), SubResource("OScriptNodeComposeFrom_oq881"), SubResource("OScriptNodeEvent_4ajiv"), SubResource("OScriptNodeCallScriptFunction_42ruo"), SubResource("OScriptNodeSceneNode_31xju"), SubResource("OScriptNodeCallMemberFunction_y7cyv"), SubResource("OScriptNodeTypeCast_1yy1p"), SubResource("OScriptNodeVariableSet_kx072"), SubResource("OScriptNodeVariableGet_uxc41"), SubResource("OScriptNodeVariableSet_1fax6"), SubResource("OScriptNodeFunctionEntry_sa1e5"), SubResource("OScriptNodeCallScriptFunction_xybii"), SubResource("OScriptNodeVariableSet_rrsra"), SubResource("OScriptNodeSequence_pw7k3"), SubResource("OScriptNodeVariableSet_vg06i"), SubResource("OScriptNodeVariableSet_t4a23"), SubResource("OScriptNodeForLoop_xb8rc"), SubResource("OScriptNodeFunctionEntry_y27wo"), SubResource("OScriptNodeCallScriptFunction_d2wx4"), SubResource("OScriptNodeVariableGet_dfipo"), SubResource("OScriptNodeOperator_wv76u"), SubResource("OScriptNodeComposeFrom_i86tn"), SubResource("OScriptNodeVariableGet_pwfin"), SubResource("OScriptNodeCallMemberFunction_dm0es"), SubResource("OScriptNodeVariableSet_v6vwc"), SubResource("OScriptNodeVariableGet_taqsa"), SubResource("OScriptNodeTypeCast_6k52l"), SubResource("OScriptNodeCallMemberFunction_b1i3j"), SubResource("OScriptNodeSequence_mmwca"), SubResource("OScriptNodeVariableGet_qxjpl"), SubResource("OScriptNodeCallMemberFunction_yougx"), SubResource("OScriptNodeOperator_pn6xh"), SubResource("OScriptNodeVariableGet_d4scm"), SubResource("OScriptNodeOperator_3er8r"), SubResource("OScriptNodeComposeFrom_ipt1h"), SubResource("OScriptNodeVariableGet_7p85t"), SubResource("OScriptNodeCallMemberFunction_mfn5e"), SubResource("OScriptNodeCallMemberFunction_c1j5j"), SubResource("OScriptNodeEvent_tyh8k"), SubResource("OScriptNodeFunctionEntry_yrx43"), SubResource("OScriptNodeSequence_nwff8"), SubResource("OScriptNodeFunctionEntry_u3pne"), SubResource("OScriptNodeSceneNode_b1aok"), SubResource("OScriptNodeCallMemberFunction_nlnoh"), SubResource("OScriptNodeVariableSet_fcfus"), SubResource("OScriptNodeBranch_bafc8"), SubResource("OScriptNodeVariableGet_nt6ut"), SubResource("OScriptNodeOperator_5lqyy"), SubResource("OScriptNodeVariableSet_mhex4"), SubResource("OScriptNodeVariableSet_vbrpm"), SubResource("OScriptNodeBranch_os00h"), SubResource("OScriptNodeCallScriptFunction_t3hec"), SubResource("OScriptNodeInputAction_bpwhs"), SubResource("OScriptNodeVariableGet_uoiff"), SubResource("OScriptNodeOperator_7quo3"), SubResource("OScriptNodeOperator_rqbvo"), SubResource("OScriptNodeVariableGet_wg41k"), SubResource("OScriptNodeBranch_7ja7r"), SubResource("OScriptNodeBranch_qtg02"), SubResource("OScriptNodeVariableGet_d72td"), SubResource("OScriptNodeVariableGet_7j2bx"), SubResource("OScriptNodeOperator_h4ugn"), SubResource("OScriptNodeVariableSet_rc30g"), SubResource("OScriptNodeVariableSet_adlb2"), SubResource("OScriptNodeBranch_cxi7i"), SubResource("OScriptNodeCallScriptFunction_d87r7"), SubResource("OScriptNodeBranch_mogmo"), SubResource("OScriptNodeOperator_ygj5g"), SubResource("OScriptNodeVariableGet_pm4h2"), SubResource("OScriptNodeInputAction_uajsx"), SubResource("OScriptNodeVariableGet_ln71l"), SubResource("OScriptNodeOperator_8thov"), SubResource("OScriptNodeVariableGet_caelb"), SubResource("OScriptNodeVariableGet_rf30d"), SubResource("OScriptNodeOperator_tmb24"), SubResource("OScriptNodeVariableSet_6uf2x"), SubResource("OScriptNodeVariableSet_tjcv7"), SubResource("OScriptNodeBranch_q1vgj"), SubResource("OScriptNodeCallScriptFunction_ayoha"), SubResource("OScriptNodeOperator_2js2l"), SubResource("OScriptNodeInputAction_xxufs"), SubResource("OScriptNodeVariableGet_86xkd"), SubResource("OScriptNodeOperator_hw27q"), SubResource("OScriptNodeVariableGet_0f1c1"), SubResource("OScriptNodeBranch_ahom0"), SubResource("OScriptNodeBranch_nin8l"), SubResource("OScriptNodeVariableGet_a8lem"), SubResource("OScriptNodeBranch_rj5yw"), SubResource("OScriptNodeVariableGet_68idj"), SubResource("OScriptNodeOperator_sv0kg"), SubResource("OScriptNodeVariableSet_vykhm"), SubResource("OScriptNodeVariableSet_oaxj8"), SubResource("OScriptNodeBranch_jolqc"), SubResource("OScriptNodeCallScriptFunction_qu8ei"), SubResource("OScriptNodeInputAction_ygb67"), SubResource("OScriptNodeVariableGet_lovdc"), SubResource("OScriptNodeOperator_jalvb"), SubResource("OScriptNodeOperator_ny378"), SubResource("OScriptNodeVariableGet_y31m5"), SubResource("OScriptNodeBranch_a1u2o"), SubResource("OScriptNodeVariableGet_lkfv1"), SubResource("OScriptNodeVariableGet_6ggji"), SubResource("OScriptNodeVariableGet_65ee8"), SubResource("OScriptNodeVariableGet_n6mia"), SubResource("OScriptNodeVariableGet_ccuwd"), SubResource("OScriptNodeEvent_s5s1s"), SubResource("OScriptNodeCallScriptFunction_opbay"), SubResource("OScriptNodeVariableSet_dj8o5"), SubResource("OScriptNodeSequence_acrw7"), SubResource("OScriptNodeMakeArray_iv4mb"), SubResource("OScriptNodeVariableGet_rqejq"), SubResource("OScriptNodeVariableSet_h6h55"), SubResource("OScriptNodeVariableGet_aikia"), SubResource("OScriptNodeArraySet_grlmc"), SubResource("OScriptNodeVariableGet_s85ls"), SubResource("OScriptNodeArrayGet_oevvh"), SubResource("OScriptNodeVariableGet_2chog"), SubResource("OScriptNodeOperator_0ncwu"), SubResource("OScriptNodeForLoop_wulb8"), SubResource("OScriptNodeVariableGet_sio0g"), SubResource("OScriptNodeCallMemberFunction_srvfc"), SubResource("OScriptNodeOperator_f74ya"), SubResource("OScriptNodeBranch_su6vr"), SubResource("OScriptNodeVariableSet_h4c6k"), SubResource("OScriptNodeOperator_ctndv"), SubResource("OScriptNodeVariableGet_dxlax"), SubResource("OScriptNodeVariableGet_onqqu"), SubResource("OScriptNodeArraySet_y4ddk"), SubResource("OScriptNodeVariableGet_lg87e"), SubResource("OScriptNodeVariableGet_f5dvv"), SubResource("OScriptNodeArrayGet_lim7j"), SubResource("OScriptNodeOperator_ppwau"), SubResource("OScriptNodeVariableGet_ovt6o"), SubResource("OScriptNodeSequence_58qbd"), SubResource("OScriptNodeArrayGet_5ylr6"), SubResource("OScriptNodeVariableGet_74tfl"), SubResource("OScriptNodeCallMemberFunction_d0q8p"), SubResource("OScriptNodeVariableGet_034sc"), SubResource("OScriptNodeVariableGet_50nsi"), SubResource("OScriptNodeArrayGet_cr48q"), SubResource("OScriptNodeVariableGet_fuj4k"), SubResource("OScriptNodeVariableGet_fp5hr"), SubResource("OScriptNodeOperator_gg2ot"), SubResource("OScriptNodeOperator_grkly"), SubResource("OScriptNodeComposeFrom_sh38v"), SubResource("OScriptNodeOperator_ll337"), SubResource("OScriptNodeVariableGet_6th4g"), SubResource("OScriptNodeCallMemberFunction_xgu5n"), SubResource("OScriptNodeVariableGet_3ld1j"), SubResource("OScriptNodeFunctionEntry_5xo2x"), SubResource("OScriptNodeFunctionEntry_rr2rh"), SubResource("OScriptNodeFunctionEntry_hf1wm"), SubResource("OScriptNodeCallScriptFunction_7fmnc"), SubResource("OScriptNodeCallScriptFunction_7edgh"), SubResource("OScriptNodeCallScriptFunction_6c588"), SubResource("OScriptNodeVariableGet_vpbjd"), SubResource("OScriptNodeArrayGet_wiy7s"), SubResource("OScriptNodeDecompose_wiat3"), SubResource("OScriptNodeOperator_s6rwn"), SubResource("OScriptNodeOperator_ctjyy"), SubResource("OScriptNodeOperator_mbjgk"), SubResource("OScriptNodeOperator_qku54"), SubResource("OScriptNodeBranch_seawa"), SubResource("OScriptNodeOperator_38jdf"), SubResource("OScriptNodeVariableGet_xlps0"), SubResource("OScriptNodeOperator_dtse0"), SubResource("OScriptNodeOperator_gqrkq"), SubResource("OScriptNodeOperator_lcau2"), SubResource("OScriptNodeOperator_ku1m0"), SubResource("OScriptNodeVariableGet_1ksq2"), SubResource("OScriptNodeFunctionEntry_ssd0y"), SubResource("OScriptNodeCallScriptFunction_e6sne"), SubResource("OScriptNodeSequence_efa1v"), SubResource("OScriptNodeForLoop_qghup"), SubResource("OScriptNodeVariableGet_qyoja"), SubResource("OScriptNodeCallMemberFunction_qrp4p"), SubResource("OScriptNodeOperator_6eh3a"), SubResource("OScriptNodeBranch_xup7r"), SubResource("OScriptNodeArrayGet_uds27"), SubResource("OScriptNodeOperator_7njse"), SubResource("OScriptNodeArrayGet_fvvpd"), SubResource("OScriptNodeCallScriptFunction_4scjv"), SubResource("OScriptNodeFunctionEntry_l27p3"), SubResource("OScriptNodeVariableGet_u7sut"), SubResource("OScriptNodeVariableSet_2emvf"), SubResource("OScriptNodeSequence_j2yuj"), SubResource("OScriptNodeVariableSet_c6d5r"), SubResource("OScriptNodeComposeFrom_5ikj4"), SubResource("OScriptNodeCallBuiltinFunction_e7j28"), SubResource("OScriptNodeVariableGet_v5bau"), SubResource("OScriptNodeOperator_3021t"), SubResource("OScriptNodeCallBuiltinFunction_7gtm7"), SubResource("OScriptNodeBranch_lmg70"), SubResource("OScriptNodeForEach_xwnfx"), SubResource("OScriptNodeVariableGet_rcd3i"), SubResource("OScriptNodeVariableGet_sames"), SubResource("OScriptNodeOperator_7yuk8"), SubResource("OScriptNodeVariableSet_yjv05"), SubResource("OScriptNodeSequence_iodww"), SubResource("OScriptNodeSceneNode_dg6lh"), SubResource("OScriptNodeCallMemberFunction_kck5p"), SubResource("OScriptNodeComposeFrom_lxcp3"), SubResource("OScriptNodeVariableGet_v2ycp"), SubResource("OScriptNodeVariableGet_l1lda"), SubResource("OScriptNodeOperator_53pxg"), SubResource("OScriptNodeOperator_pn4o6"), SubResource("OScriptNodeVariableGet_2utjl"), SubResource("OScriptNodeVariableSet_743bs"), SubResource("OScriptNodeCallScriptFunction_sdmy1"), SubResource("OScriptNodeBranch_wyl4h"), SubResource("OScriptNodeSequence_iajbh"), SubResource("OScriptNodeVariableSet_xfxgb"), SubResource("OScriptNodeVariableGet_bqpdj"), SubResource("OScriptNodeOperator_e1csk"), SubResource("OScriptNodeSceneNode_8im3q"), SubResource("OScriptNodeCallMemberFunction_fvx1p"), SubResource("OScriptNodeCallMemberFunction_k82uh"), SubResource("OScriptNodeTypeCast_0qre0"), SubResource("OScriptNodeVariableGet_a8vp5"), SubResource("OScriptNodeCallBuiltinFunction_maqqo"), SubResource("OScriptNodeOperator_nvp72"), SubResource("OScriptNodeComposeFrom_bdgnk"), SubResource("OScriptNodeCallScriptFunction_dos78"), SubResource("OScriptNodeVariableGet_0kl5i"), SubResource("OScriptNodeArrayGet_dicdn"), SubResource("OScriptNodeCallScriptFunction_85wbq"), SubResource("OScriptNodeWhile_18wn4"), SubResource("OScriptNodeVariableGet_ydg41"), SubResource("OScriptNodeArrayGet_dhakx"), SubResource("OScriptNodeVariableGet_irm63"), SubResource("OScriptNodeOperator_ffa58"), SubResource("OScriptNodeVariableGet_bi6qb"), SubResource("OScriptNodeCallMemberFunction_olrxr"), SubResource("OScriptNodeOperator_beu4e"), SubResource("OScriptNodeCallMemberFunction_culcl"), SubResource("OScriptNodePropertySet_r0sof"), SubResource("OScriptNodeSceneNode_mhgno"), SubResource("OScriptNodeCallMemberFunction_3sbou"), SubResource("OScriptNodeSceneNode_68xfq"), SubResource("OScriptNodeCallMemberFunction_mr5f5"), SubResource("OScriptNodeSceneNode_38hy7"), SubResource("OScriptNodeCallMemberFunction_n45mp"), SubResource("OScriptNodeVariableSet_352a7"), SubResource("OScriptNodeCallMemberFunction_qk08u"), SubResource("OScriptNodePropertySet_rs1eu"), SubResource("OScriptNodeEvent_ebfxm"), SubResource("OScriptNodeCallScriptFunction_becrc"), SubResource("OScriptNodeCallMemberFunction_s60q1"), SubResource("OScriptNodeCallMemberFunction_uqjmj"), SubResource("OScriptNodeCallMemberFunction_mttkm"), SubResource("OScriptNodeCallMemberFunction_kp02w"), SubResource("OScriptNodeComposeFrom_jgtqm"), SubResource("OScriptNodeVariableGet_foaof")])
+connections = Array[int]([2, 1, 1, 0, 0, 0, 2, 0, 15, 0, 6, 0, 7, 0, 8, 0, 10, 0, 9, 0, 11, 0, 12, 0, 1, 0, 14, 0, 14, 0, 15, 0, 6, 0, 16, 0, 2, 2, 18, 0, 18, 0, 20, 0, 22, 0, 21, 0, 19, 0, 22, 0, 21, 0, 23, 0, 23, 0, 24, 0, 22, 1, 25, 0, 25, 0, 27, 0, 28, 0, 29, 0, 38, 0, 32, 0, 37, 0, 33, 0, 32, 0, 36, 0, 36, 0, 37, 0, 26, 0, 38, 0, 38, 1, 41, 0, 43, 0, 42, 0, 42, 0, 44, 0, 41, 0, 59, 0, 61, 0, 63, 0, 82, 0, 81, 0, 78, 0, 82, 0, 127, 0, 113, 0, 115, 0, 116, 0, 113, 0, 117, 0, 117, 0, 118, 0, 118, 0, 119, 0, 119, 0, 120, 0, 121, 0, 123, 0, 125, 0, 124, 0, 63, 2, 127, 0, 136, 0, 128, 0, 130, 0, 131, 0, 128, 0, 132, 0, 132, 0, 133, 0, 133, 0, 134, 0, 134, 0, 135, 0, 63, 0, 136, 0, 139, 0, 137, 0, 140, 0, 141, 0, 144, 0, 145, 0, 156, 0, 146, 0, 146, 0, 147, 0, 147, 0, 148, 0, 148, 0, 149, 0, 151, 0, 150, 0, 152, 0, 153, 0, 63, 1, 155, 0, 155, 0, 156, 0, 172, 0, 158, 0, 160, 0, 161, 0, 158, 0, 162, 0, 162, 0, 163, 0, 163, 0, 164, 0, 164, 0, 165, 0, 166, 0, 168, 0, 170, 0, 169, 0, 63, 3, 172, 0, 60, 0, 179, 0, 181, 0, 180, 0, 178, 0, 181, 0, 180, 0, 185, 0, 185, 0, 187, 0, 188, 0, 189, 0, 189, 0, 191, 0, 194, 0, 192, 0, 181, 1, 194, 0, 194, 1, 195, 0, 207, 0, 196, 0, 192, 0, 197, 0, 199, 0, 198, 0, 196, 0, 201, 0, 203, 0, 204, 0, 206, 0, 205, 0, 197, 0, 207, 0, 209, 0, 208, 0, 207, 1, 211, 0, 213, 0, 214, 0, 214, 0, 217, 0, 217, 0, 218, 0, 182, 0, 220, 0, 59, 0, 223, 0, 181, 2, 228, 0, 228, 0, 229, 0, 229, 0, 230, 0, 231, 0, 232, 0, 232, 0, 234, 0, 234, 0, 235, 0, 235, 0, 236, 0, 236, 0, 237, 0, 242, 0, 238, 0, 225, 0, 239, 0, 234, 0, 240, 0, 234, 1, 242, 0, 241, 0, 243, 0, 234, 1, 244, 0, 246, 0, 245, 0, 239, 0, 248, 0, 226, 0, 249, 0, 252, 0, 250, 0, 249, 0, 252, 0, 252, 1, 253, 0, 250, 0, 254, 0, 251, 0, 255, 0, 255, 0, 258, 0, 251, 0, 259, 0, 254, 0, 260, 0, 265, 0, 264, 0, 344, 0, 265, 0, 265, 1, 267, 0, 269, 0, 268, 0, 270, 0, 271, 0, 275, 0, 274, 0, 265, 2, 275, 0, 277, 0, 278, 0, 274, 0, 279, 0, 261, 0, 280, 0, 280, 1, 282, 0, 288, 0, 286, 0, 286, 0, 287, 0, 282, 0, 289, 0, 20, 0, 290, 0, 227, 0, 292, 0, 292, 0, 297, 0, 297, 0, 298, 0, 299, 0, 300, 0, 297, 1, 302, 0, 304, 0, 303, 0, 302, 0, 304, 0, 305, 0, 306, 0, 308, 0, 307, 0, 350, 0, 309, 0, 310, 0, 311, 0, 309, 0, 312, 0, 280, 0, 344, 0, 347, 0, 346, 0, 346, 0, 348, 0, 297, 2, 350, 0, 350, 1, 351, 0, 366, 0, 353, 0, 353, 0, 355, 0, 247, 0, 357, 0, 357, 0, 359, 0, 359, 0, 360, 0, 360, 0, 362, 0, 363, 0, 364, 0, 2, 0, 366, 0, 15, 2, 6, 1, 8, 0, 9, 1, 13, 0, 14, 1, 14, 1, 15, 1, 17, 0, 16, 1, 29, 0, 27, 1, 30, 0, 29, 1, 25, 1, 30, 1, 31, 0, 32, 1, 37, 1, 33, 1, 35, 0, 36, 1, 36, 2, 37, 1, 39, 0, 41, 1, 26, 1, 42, 1, 45, 0, 44, 1, 43, 0, 45, 1, 55, 0, 59, 1, 80, 0, 81, 1, 123, 0, 113, 1, 175, 0, 117, 1, 116, 0, 119, 1, 124, 0, 123, 1, 174, 0, 124, 1, 122, 0, 127, 1, 137, 0, 128, 1, 129, 0, 132, 1, 131, 0, 134, 1, 138, 0, 136, 1, 141, 0, 137, 1, 142, 0, 141, 1, 154, 0, 146, 1, 145, 0, 148, 1, 153, 0, 150, 1, 173, 0, 153, 1, 157, 0, 155, 1, 150, 0, 156, 1, 168, 0, 158, 1, 177, 0, 162, 1, 161, 0, 164, 1, 169, 0, 168, 1, 176, 0, 169, 1, 167, 0, 172, 1, 220, 0, 185, 1, 186, 0, 187, 1, 190, 0, 191, 1, 193, 0, 194, 1, 198, 0, 196, 1, 192, 1, 197, 1, 200, 0, 201, 1, 205, 0, 204, 1, 212, 0, 208, 1, 208, 0, 211, 1, 215, 0, 214, 1, 216, 0, 217, 1, 219, 0, 218, 1, 216, 0, 219, 1, 183, 0, 220, 1, 222, 0, 223, 1, 240, 0, 236, 1, 238, 0, 237, 1, 244, 0, 238, 1, 237, 0, 239, 1, 243, 0, 240, 1, 245, 0, 244, 1, 251, 0, 252, 1, 259, 0, 258, 1, 250, 1, 259, 1, 268, 0, 267, 1, 272, 0, 268, 1, 271, 0, 269, 1, 271, 0, 272, 1, 278, 0, 274, 1, 276, 0, 275, 1, 275, 1, 278, 1, 281, 0, 282, 1, 284, 0, 283, 1, 285, 0, 286, 1, 283, 0, 287, 1, 348, 0, 292, 1, 300, 0, 298, 1, 301, 0, 302, 1, 304, 2, 303, 1, 302, 1, 304, 1, 306, 0, 307, 1, 311, 0, 309, 1, 351, 0, 311, 1, 263, 0, 344, 1, 345, 0, 348, 1, 349, 0, 350, 1, 352, 0, 353, 1, 354, 0, 355, 1, 356, 0, 357, 1, 358, 0, 359, 1, 361, 0, 362, 1, 365, 0, 366, 1, 9, 0, 6, 2, 26, 1, 32, 2, 44, 0, 41, 2, 195, 0, 192, 2, 202, 0, 201, 2, 218, 0, 211, 2, 224, 0, 223, 2, 253, 0, 250, 2, 287, 0, 282, 2, 307, 0, 303, 2, 47, 0, 59, 3, 191, 0, 187, 3, 204, 0, 201, 3])
+nodes = Array[OScriptNode]([SubResource("OScriptNodeFunctionEntry_qahqt"), SubResource("OScriptNodeVariableSet_yuscy"), SubResource("OScriptNodeSequence_w2st0"), SubResource("OScriptNodeCallMemberFunction_ed31e"), SubResource("OScriptNodeVariableGet_g7vxq"), SubResource("OScriptNodeCallBuiltinFunction_xldvb"), SubResource("OScriptNodeOperator_8fh5y"), SubResource("OScriptNodeComposeFrom_oq881"), SubResource("OScriptNodeEvent_4ajiv"), SubResource("OScriptNodeCallScriptFunction_42ruo"), SubResource("OScriptNodeSceneNode_31xju"), SubResource("OScriptNodeCallMemberFunction_y7cyv"), SubResource("OScriptNodeTypeCast_1yy1p"), SubResource("OScriptNodeVariableSet_kx072"), SubResource("OScriptNodeVariableGet_uxc41"), SubResource("OScriptNodeVariableSet_1fax6"), SubResource("OScriptNodeFunctionEntry_sa1e5"), SubResource("OScriptNodeCallScriptFunction_xybii"), SubResource("OScriptNodeVariableSet_rrsra"), SubResource("OScriptNodeSequence_pw7k3"), SubResource("OScriptNodeVariableSet_vg06i"), SubResource("OScriptNodeVariableSet_t4a23"), SubResource("OScriptNodeForLoop_xb8rc"), SubResource("OScriptNodeFunctionEntry_y27wo"), SubResource("OScriptNodeCallScriptFunction_d2wx4"), SubResource("OScriptNodeVariableGet_dfipo"), SubResource("OScriptNodeOperator_wv76u"), SubResource("OScriptNodeComposeFrom_i86tn"), SubResource("OScriptNodeVariableGet_pwfin"), SubResource("OScriptNodeCallMemberFunction_dm0es"), SubResource("OScriptNodeVariableSet_v6vwc"), SubResource("OScriptNodeVariableGet_taqsa"), SubResource("OScriptNodeTypeCast_6k52l"), SubResource("OScriptNodeCallMemberFunction_b1i3j"), SubResource("OScriptNodeSequence_mmwca"), SubResource("OScriptNodeVariableGet_qxjpl"), SubResource("OScriptNodeCallMemberFunction_yougx"), SubResource("OScriptNodeOperator_pn6xh"), SubResource("OScriptNodeVariableGet_d4scm"), SubResource("OScriptNodeOperator_3er8r"), SubResource("OScriptNodeComposeFrom_ipt1h"), SubResource("OScriptNodeVariableGet_7p85t"), SubResource("OScriptNodeCallMemberFunction_mfn5e"), SubResource("OScriptNodeCallMemberFunction_c1j5j"), SubResource("OScriptNodeEvent_tyh8k"), SubResource("OScriptNodeFunctionEntry_yrx43"), SubResource("OScriptNodeSequence_nwff8"), SubResource("OScriptNodeFunctionEntry_u3pne"), SubResource("OScriptNodeSceneNode_b1aok"), SubResource("OScriptNodeCallMemberFunction_nlnoh"), SubResource("OScriptNodeVariableSet_fcfus"), SubResource("OScriptNodeBranch_bafc8"), SubResource("OScriptNodeVariableGet_nt6ut"), SubResource("OScriptNodeOperator_5lqyy"), SubResource("OScriptNodeVariableSet_mhex4"), SubResource("OScriptNodeVariableSet_vbrpm"), SubResource("OScriptNodeBranch_os00h"), SubResource("OScriptNodeCallScriptFunction_t3hec"), SubResource("OScriptNodeInputAction_bpwhs"), SubResource("OScriptNodeVariableGet_uoiff"), SubResource("OScriptNodeOperator_7quo3"), SubResource("OScriptNodeOperator_rqbvo"), SubResource("OScriptNodeVariableGet_wg41k"), SubResource("OScriptNodeBranch_7ja7r"), SubResource("OScriptNodeBranch_qtg02"), SubResource("OScriptNodeVariableGet_d72td"), SubResource("OScriptNodeVariableGet_7j2bx"), SubResource("OScriptNodeOperator_h4ugn"), SubResource("OScriptNodeVariableSet_rc30g"), SubResource("OScriptNodeVariableSet_adlb2"), SubResource("OScriptNodeBranch_cxi7i"), SubResource("OScriptNodeCallScriptFunction_d87r7"), SubResource("OScriptNodeBranch_mogmo"), SubResource("OScriptNodeOperator_ygj5g"), SubResource("OScriptNodeVariableGet_pm4h2"), SubResource("OScriptNodeInputAction_uajsx"), SubResource("OScriptNodeVariableGet_ln71l"), SubResource("OScriptNodeOperator_8thov"), SubResource("OScriptNodeVariableGet_caelb"), SubResource("OScriptNodeVariableGet_rf30d"), SubResource("OScriptNodeOperator_tmb24"), SubResource("OScriptNodeVariableSet_6uf2x"), SubResource("OScriptNodeVariableSet_tjcv7"), SubResource("OScriptNodeBranch_q1vgj"), SubResource("OScriptNodeCallScriptFunction_ayoha"), SubResource("OScriptNodeOperator_2js2l"), SubResource("OScriptNodeInputAction_xxufs"), SubResource("OScriptNodeVariableGet_86xkd"), SubResource("OScriptNodeOperator_hw27q"), SubResource("OScriptNodeVariableGet_0f1c1"), SubResource("OScriptNodeBranch_ahom0"), SubResource("OScriptNodeBranch_nin8l"), SubResource("OScriptNodeVariableGet_a8lem"), SubResource("OScriptNodeBranch_rj5yw"), SubResource("OScriptNodeVariableGet_68idj"), SubResource("OScriptNodeOperator_sv0kg"), SubResource("OScriptNodeVariableSet_vykhm"), SubResource("OScriptNodeVariableSet_oaxj8"), SubResource("OScriptNodeBranch_jolqc"), SubResource("OScriptNodeCallScriptFunction_qu8ei"), SubResource("OScriptNodeInputAction_ygb67"), SubResource("OScriptNodeVariableGet_lovdc"), SubResource("OScriptNodeOperator_jalvb"), SubResource("OScriptNodeOperator_ny378"), SubResource("OScriptNodeVariableGet_y31m5"), SubResource("OScriptNodeBranch_a1u2o"), SubResource("OScriptNodeVariableGet_lkfv1"), SubResource("OScriptNodeVariableGet_6ggji"), SubResource("OScriptNodeVariableGet_65ee8"), SubResource("OScriptNodeVariableGet_n6mia"), SubResource("OScriptNodeVariableGet_ccuwd"), SubResource("OScriptNodeEvent_s5s1s"), SubResource("OScriptNodeCallScriptFunction_opbay"), SubResource("OScriptNodeVariableSet_dj8o5"), SubResource("OScriptNodeSequence_acrw7"), SubResource("OScriptNodeMakeArray_iv4mb"), SubResource("OScriptNodeVariableGet_rqejq"), SubResource("OScriptNodeVariableSet_h6h55"), SubResource("OScriptNodeVariableGet_aikia"), SubResource("OScriptNodeArraySet_grlmc"), SubResource("OScriptNodeVariableGet_s85ls"), SubResource("OScriptNodeArrayGet_oevvh"), SubResource("OScriptNodeVariableGet_2chog"), SubResource("OScriptNodeOperator_0ncwu"), SubResource("OScriptNodeForLoop_wulb8"), SubResource("OScriptNodeVariableGet_sio0g"), SubResource("OScriptNodeCallMemberFunction_srvfc"), SubResource("OScriptNodeOperator_f74ya"), SubResource("OScriptNodeBranch_su6vr"), SubResource("OScriptNodeVariableSet_h4c6k"), SubResource("OScriptNodeOperator_ctndv"), SubResource("OScriptNodeVariableGet_dxlax"), SubResource("OScriptNodeVariableGet_onqqu"), SubResource("OScriptNodeArraySet_y4ddk"), SubResource("OScriptNodeVariableGet_lg87e"), SubResource("OScriptNodeVariableGet_f5dvv"), SubResource("OScriptNodeArrayGet_lim7j"), SubResource("OScriptNodeOperator_ppwau"), SubResource("OScriptNodeVariableGet_ovt6o"), SubResource("OScriptNodeSequence_58qbd"), SubResource("OScriptNodeArrayGet_5ylr6"), SubResource("OScriptNodeVariableGet_74tfl"), SubResource("OScriptNodeCallMemberFunction_d0q8p"), SubResource("OScriptNodeVariableGet_034sc"), SubResource("OScriptNodeVariableGet_50nsi"), SubResource("OScriptNodeArrayGet_cr48q"), SubResource("OScriptNodeVariableGet_fuj4k"), SubResource("OScriptNodeVariableGet_fp5hr"), SubResource("OScriptNodeOperator_gg2ot"), SubResource("OScriptNodeOperator_grkly"), SubResource("OScriptNodeComposeFrom_sh38v"), SubResource("OScriptNodeOperator_ll337"), SubResource("OScriptNodeVariableGet_6th4g"), SubResource("OScriptNodeCallMemberFunction_xgu5n"), SubResource("OScriptNodeVariableGet_3ld1j"), SubResource("OScriptNodeFunctionEntry_5xo2x"), SubResource("OScriptNodeFunctionEntry_rr2rh"), SubResource("OScriptNodeFunctionEntry_hf1wm"), SubResource("OScriptNodeCallScriptFunction_7fmnc"), SubResource("OScriptNodeCallScriptFunction_7edgh"), SubResource("OScriptNodeCallScriptFunction_6c588"), SubResource("OScriptNodeVariableGet_vpbjd"), SubResource("OScriptNodeArrayGet_wiy7s"), SubResource("OScriptNodeDecompose_wiat3"), SubResource("OScriptNodeOperator_s6rwn"), SubResource("OScriptNodeOperator_ctjyy"), SubResource("OScriptNodeOperator_mbjgk"), SubResource("OScriptNodeOperator_qku54"), SubResource("OScriptNodeBranch_seawa"), SubResource("OScriptNodeOperator_38jdf"), SubResource("OScriptNodeVariableGet_xlps0"), SubResource("OScriptNodeOperator_dtse0"), SubResource("OScriptNodeOperator_gqrkq"), SubResource("OScriptNodeOperator_lcau2"), SubResource("OScriptNodeOperator_ku1m0"), SubResource("OScriptNodeVariableGet_1ksq2"), SubResource("OScriptNodeFunctionEntry_ssd0y"), SubResource("OScriptNodeCallScriptFunction_e6sne"), SubResource("OScriptNodeSequence_efa1v"), SubResource("OScriptNodeForLoop_qghup"), SubResource("OScriptNodeVariableGet_qyoja"), SubResource("OScriptNodeCallMemberFunction_qrp4p"), SubResource("OScriptNodeOperator_6eh3a"), SubResource("OScriptNodeBranch_xup7r"), SubResource("OScriptNodeArrayGet_uds27"), SubResource("OScriptNodeOperator_7njse"), SubResource("OScriptNodeArrayGet_fvvpd"), SubResource("OScriptNodeCallScriptFunction_4scjv"), SubResource("OScriptNodeFunctionEntry_l27p3"), SubResource("OScriptNodeVariableGet_u7sut"), SubResource("OScriptNodeVariableSet_2emvf"), SubResource("OScriptNodeSequence_j2yuj"), SubResource("OScriptNodeVariableSet_c6d5r"), SubResource("OScriptNodeComposeFrom_5ikj4"), SubResource("OScriptNodeCallBuiltinFunction_e7j28"), SubResource("OScriptNodeVariableGet_v5bau"), SubResource("OScriptNodeOperator_3021t"), SubResource("OScriptNodeCallBuiltinFunction_7gtm7"), SubResource("OScriptNodeBranch_lmg70"), SubResource("OScriptNodeForEach_xwnfx"), SubResource("OScriptNodeVariableGet_rcd3i"), SubResource("OScriptNodeVariableGet_sames"), SubResource("OScriptNodeOperator_7yuk8"), SubResource("OScriptNodeVariableSet_yjv05"), SubResource("OScriptNodeSequence_iodww"), SubResource("OScriptNodeSceneNode_dg6lh"), SubResource("OScriptNodeCallMemberFunction_kck5p"), SubResource("OScriptNodeComposeFrom_lxcp3"), SubResource("OScriptNodeVariableGet_v2ycp"), SubResource("OScriptNodeVariableGet_l1lda"), SubResource("OScriptNodeOperator_53pxg"), SubResource("OScriptNodeOperator_pn4o6"), SubResource("OScriptNodeVariableGet_2utjl"), SubResource("OScriptNodeVariableSet_743bs"), SubResource("OScriptNodeCallScriptFunction_sdmy1"), SubResource("OScriptNodeBranch_wyl4h"), SubResource("OScriptNodeSequence_iajbh"), SubResource("OScriptNodeVariableSet_xfxgb"), SubResource("OScriptNodeVariableGet_bqpdj"), SubResource("OScriptNodeOperator_e1csk"), SubResource("OScriptNodeSceneNode_8im3q"), SubResource("OScriptNodeCallMemberFunction_fvx1p"), SubResource("OScriptNodeCallMemberFunction_k82uh"), SubResource("OScriptNodeTypeCast_0qre0"), SubResource("OScriptNodeVariableGet_a8vp5"), SubResource("OScriptNodeCallBuiltinFunction_maqqo"), SubResource("OScriptNodeOperator_nvp72"), SubResource("OScriptNodeComposeFrom_bdgnk"), SubResource("OScriptNodeCallScriptFunction_dos78"), SubResource("OScriptNodeVariableGet_0kl5i"), SubResource("OScriptNodeArrayGet_dicdn"), SubResource("OScriptNodeCallScriptFunction_85wbq"), SubResource("OScriptNodeWhile_18wn4"), SubResource("OScriptNodeVariableGet_ydg41"), SubResource("OScriptNodeArrayGet_dhakx"), SubResource("OScriptNodeVariableGet_irm63"), SubResource("OScriptNodeOperator_ffa58"), SubResource("OScriptNodeVariableGet_bi6qb"), SubResource("OScriptNodeCallMemberFunction_olrxr"), SubResource("OScriptNodeOperator_beu4e"), SubResource("OScriptNodeCallMemberFunction_culcl"), SubResource("OScriptNodePropertySet_r0sof"), SubResource("OScriptNodeSceneNode_mhgno"), SubResource("OScriptNodeCallMemberFunction_3sbou"), SubResource("OScriptNodeSceneNode_68xfq"), SubResource("OScriptNodeCallMemberFunction_mr5f5"), SubResource("OScriptNodeSceneNode_38hy7"), SubResource("OScriptNodeCallMemberFunction_n45mp"), SubResource("OScriptNodeVariableSet_352a7"), SubResource("OScriptNodeCallMemberFunction_qk08u"), SubResource("OScriptNodePropertySet_rs1eu"), SubResource("OScriptNodeEvent_ebfxm"), SubResource("OScriptNodeCallScriptFunction_becrc"), SubResource("OScriptNodeCallMemberFunction_s60q1"), SubResource("OScriptNodeCallMemberFunction_uqjmj")])
 graphs = Array[OScriptGraph]([SubResource("OScriptGraph_t4xj6"), SubResource("OScriptGraph_u6ddh"), SubResource("OScriptGraph_s15ni"), SubResource("OScriptGraph_k5t2g"), SubResource("OScriptGraph_e2n4x"), SubResource("OScriptGraph_4qlnr"), SubResource("OScriptGraph_m3j1i"), SubResource("OScriptGraph_d6a3k"), SubResource("OScriptGraph_33opw"), SubResource("OScriptGraph_7hkv7"), SubResource("OScriptGraph_0s047")])
